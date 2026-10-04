@@ -1,0 +1,17 @@
+# Ask AI training crawlers not to collect anything on hemanthtejay.github.io (including /hemanth.ai/).
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: meta-externalagent
+User-agent: Amazonbot
+User-agent: cohere-ai
+User-agent: Diffbot
+Disallow: /
+
+# Everyone else, including normal search engines, is welcome.
+User-agent: *
+Allow: /
